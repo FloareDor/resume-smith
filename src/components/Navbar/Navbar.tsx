@@ -26,7 +26,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="w-full">
-			<div className="flex flex-row items-center justify-between gap-20 px-4 py-2 md:px-24 md:py-6">
+			<div className="flex flex-row items-center justify-between gap-20 px-[6.5%] py-2 md:py-6">
 				<Link href="/"><span className="text-black">ResumeSmith</span></Link>
 				<div className=" md:flex md:flex-row items-center sm:gap-2 md:gap-8 hidden">
 					<span className="text-black text-sm">Features</span>
