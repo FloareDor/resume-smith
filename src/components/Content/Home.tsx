@@ -2,28 +2,36 @@ import Image from "next/image";
 import { Element } from "react-scroll";
 
 const Home = () => {
-	return (
-		<Element name="home">
-			<div className="w-100vw">
-				<div className="flex flex-row w-full px-[7.82%] pt-12">
-					<div className="flex flex-col gap-10 items-start">
-						<span className="text-black text-5xl font-semibold w-3/4">
-							Elevate your job applications with a meticulously crafted resume
-						</span>
-						<span className="text-gray-600 w-4/5">
-							We harness the latest in AI to to forge resumes that truly captivate and resonate with potential employers.
-						</span>
-						<div className="flex flex-row items-center w-4/5">
-							<button className="px-4 py-3 text-white bg-blue-700 rounded-md">
-								Format Resume
-							</button>
-						</div>
-					</div>
-					<Image src={'/images/home.svg'} alt="home" width={520} height={500} className="hidden lg:block"/>
-				</div>
-			</div>
-		</Element>
-	)
+    return (
+        <Element name="home">
+            <div className="w-full">
+                <div className="flex flex-col lg:flex-row items-center justify-between px-[7.82%] pt-12">
+                    <div className="flex flex-col gap-6 items-center lg:items-start mb-8 lg:mb-0 lg:w-1/2 lg:pr-12">
+                        <span className="text-black text-3xl md:text-4xl lg:text-5xl font-semibold text-center lg:text-left">
+                            Elevate your job applications with a meticulously crafted resume
+                        </span>
+                        <span className="text-gray-600 text-center lg:text-left">
+                            We harness the latest in AI to forge resumes that truly captivate and resonate with potential employers.
+                        </span>
+                        <div className="flex justify-center lg:justify-start">
+                            <button className="px-6 py-3 text-white bg-blue-700 rounded-md">
+                                Format Resume
+                            </button>
+                        </div>
+                    </div>
+                    <div className="hidden lg:block lg:w-1/2">
+                        <Image
+                            src={'/images/home.svg'}
+                            alt="home"
+                            width={520}
+                            height={500}
+                            className="w-full h-auto"
+                        />
+                    </div>
+                </div>
+            </div>
+        </Element>
+    );
 };
 
 export default Home;
