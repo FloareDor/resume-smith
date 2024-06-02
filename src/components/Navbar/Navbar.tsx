@@ -2,6 +2,7 @@ import { useState } from "react";
 import Overlay from "./Overlay";
 import HamburgerIcon from "../icons/Hamburger";
 import Link from "next/link";
+import NavItem from "./NavItem";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,9 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden md:flex flex-wrap items-center gap-4 md:gap-8">
-          <span className="text-black text-sm">Features</span>
-          <span className="text-black text-sm">Templates</span>
-          <span className="text-black text-sm">Testimonials</span>
+          <NavItem href='start' title='Features' />
+          <NavItem href='start' title='Templates' />
+          <NavItem href='start' title='Testimonials' />
         </div>
 
         <div className="hidden md:flex flex-wrap items-center gap-4 md:gap-8">

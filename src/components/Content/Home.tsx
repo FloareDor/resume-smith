@@ -19,11 +19,11 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="hidden lg:block lg:w-1/2">
+                    <div className="hidden lg:block lg:w-2/5">
                         <Image
                             src={'/images/home.svg'}
                             alt="home"
-                            width={520}
+                            width={450}
                             height={500}
                             className="w-full h-auto"
                         />
