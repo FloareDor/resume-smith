@@ -11,7 +11,7 @@ const Overlay = ({ onItemClick }: OverlayProps) => {
           <NavItem href="account" title="Account" fontStyle="text-lg" onClick={onItemClick} />
           <NavItem href="home" title="Home" fontStyle="text-lg" onClick={onItemClick} />
           <NavItem href="Features" title="Features" fontStyle="text-lg" onClick={onItemClick} />
-          <NavItem href="templates" title="Templates" fontStyle="text-lg" onClick={onItemClick} />
+          <NavItem href="start" title="Templates" fontStyle="text-lg" onClick={onItemClick} />
           <NavItem href="testimonials" title="Testimonials" fontStyle="text-lg" onClick={onItemClick} />
           <NavItem href="format" title="Format Resume" fontStyle="text-lg" onClick={onItemClick} />
         </div>
