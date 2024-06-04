@@ -14,7 +14,7 @@ const Home = () => {
                             We harness the latest in AI to forge resumes that truly captivate and resonate with potential employers.
                         </span>
                         <div className="flex justify-center lg:justify-start">
-                            <button className="px-6 py-3 text-white bg-blue-700 rounded-md">
+                            <button className="px-6 py-3 text-white font-semibold bg-blue-700 rounded-md transform transition-all duration-300 hover:scale-105 active:scale-100">
                                 Format Resume
                             </button>
                         </div>

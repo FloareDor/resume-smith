@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="hidden md:flex flex-wrap items-center gap-4 md:gap-8">
           <NavItem href='start' title='Features' />
           <NavItem href='start' title='Templates' />
-          <NavItem href='start' title='Testimonials' />
+          <NavItem href='testimonials' title='Testimonials' />
         </div>
 
         <div className="hidden md:flex flex-wrap items-center gap-4 md:gap-8">
