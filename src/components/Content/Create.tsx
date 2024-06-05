@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import Image from "next/image";
 import createBg from "../../../public/images/create.png";
+import Link from "next/link";
 
 const Create = () => {
   return (
@@ -18,9 +19,11 @@ const Create = () => {
             Use ResumeSmith and land <br></br> your dream job
           </span>
           <div className="flex flex-col gap-4">
-            <button className="px-4 py-2 sm:px-6 sm:py-3 text-white font-semibold bg-blue-700 rounded-md transform transition-all duration-300 hover:scale-105 active:scale-100">
-              Create Resume
-            </button>
+            <Link href={'/upload'}>
+              <button className="px-4 py-2 sm:px-6 sm:py-3 text-white font-semibold bg-blue-700 rounded-md transform transition-all duration-300 hover:scale-105 active:scale-100">
+                Create Resume
+              </button>
+            </Link>
             <span className="text-white text-sm">No registration required</span>
           </div>
         </div>

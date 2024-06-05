@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="hidden md:flex flex-wrap items-center gap-4 md:gap-8">
           <Link href={'/login'}><span className="text-black text-sm">Login</span></Link>
           <span className="text-black text-sm">Sign up</span>
-          <Link href={''}>
+          <Link href={'/upload'}>
             <span className="bg-white hover:bg-gray-200 text-black py-2 px-4 rounded outline outline-2 outline-black whitespace-nowrap">
               Format Resume
             </span>

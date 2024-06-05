@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Element } from "react-scroll";
 
 const Home = () => {
@@ -14,9 +15,11 @@ const Home = () => {
                             We harness the latest in AI to forge resumes that truly captivate and resonate with potential employers.
                         </span>
                         <div className="flex justify-center lg:justify-start">
-                            <button className="px-6 py-3 text-white font-semibold bg-blue-700 rounded-md transform transition-all duration-300 hover:scale-105 active:scale-100">
-                                Format Resume
-                            </button>
+                            <Link href={'/upload'}>
+                                <button className="px-6 py-3 text-white font-semibold bg-blue-700 rounded-md transform transition-all duration-300 hover:scale-105 active:scale-100">
+                                    Format Resume
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="hidden lg:block lg:w-2/5">
