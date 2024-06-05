@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="py-6 md:py-12 px-4 md:px-[8%]">
+    <div className="py-6 md:py-8 px-4 md:px-[8%]">
       <div className="flex flex-col gap-6 md:gap-12">
         <div className="flex flex-col md:flex-row justify-start items-center gap-4 md:gap-8">
           <span className="text-gray-500">Follow us</span>

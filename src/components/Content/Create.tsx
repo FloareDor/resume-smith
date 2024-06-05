@@ -5,7 +5,7 @@ import createBg from "../../../public/images/create.png";
 const Create = () => {
   return (
     <Element name="create">
-      <div className="relative w-full py-16 md:py-24 lg:py-24">
+      <div className="relative w-full py-16 md:py-24 lg:py-32">
         <Image
           src={createBg}
           alt="Background Image"
